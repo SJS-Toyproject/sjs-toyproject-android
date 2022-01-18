@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -16,12 +17,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/go_sign_page"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hello"
-        tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="90dp"
-        tools:ignore="MissingConstraints" />
+        android:layout_marginBottom="54dp"
+        android:text="로그인버튼(가버튼)"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
