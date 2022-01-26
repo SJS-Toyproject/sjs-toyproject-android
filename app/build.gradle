@@ -12,6 +12,9 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    viewBinding {
+        enabled = true
+    }
     defaultConfig {
         applicationId "com.cookandroid.myapplication"
         minSdkVersion 19

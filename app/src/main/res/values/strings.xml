@@ -1,4 +1,46 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="kakao_native_key">6d71e1bff2d735ecb9f815ce6a40d68c</string>
+    <string-array name="my_array">
+        <item>..일</item>
+        <item>1일</item>
+        <item>2일</item>
+        <item>3일</item>
+        <item>4일</item>
+        <item>5일</item>
+        <item>6일</item>
+        <item>7일</item>
+        <item>8일</item>
+        <item>9일</item>
+        <item>10일</item>
+        <item>11일</item>
+        <item>12일</item>
+        <item>13일</item>
+        <item>14일</item>
+        <item>15일</item>
+        <item>16일</item>
+        <item>17일</item>
+        <item>18일</item>
+        <item>19일</item>
+        <item>20일</item>
+        <item>21일</item>
+        <item>22일</item>
+        <item>23일</item>
+        <item>24일</item>
+        <item>25일</item>
+        <item>26일</item>
+        <item>27일</item>
+        <item>28일</item>
+        <item>29일</item>
+        <item>30일</item>
+        <item>31일</item>
+    </string-array>
+    <string-array name="position">
+        <item>호칭선택</item>
+        <item>간사</item>
+        <item>나사렛순장</item>
+        <item>나사렛</item>
+        <item>순장</item>
+        <item>순원</item>
+    </string-array>
 </resources>
